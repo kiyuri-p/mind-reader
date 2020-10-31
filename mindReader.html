@@ -1,0 +1,35 @@
+<HTML>
+	<HEAD>
+		<TITLE></TITLE>
+		<LINK rel="stylesheet" type="text/css" href="style.css"></LINK>
+		<SCRIPT type="text/javascript" src="script.js"></SCRIPT>
+	</HEAD>
+	<BODY onload="pageLoad()">
+		<DIV id="firstPage">
+			<H1 class="firstText">I Can Read Your Mind</H1>
+			<H2>
+				Think of any 2-digit number.
+				<BR>
+				Add the two digit together then subtract the answer to your original number.
+			</H2>
+			<BR><BR>
+			<BUTTON class="btn" onclick="startClick()">
+				Start
+			</BUTTON>
+		</DIV>
+		<DIV id="secondPage">
+			<H2 class="secondText">Look the image of your answer</H2>
+			<DIV id="container">
+			</DIV>
+			<BR><BR>
+			<BUTTON class="btn" onclick="readClick()">
+				Read My Mind
+			</BUTTON>
+		</DIV>
+		<DIV id="thirdPage">
+			<H1 class="thirdText">Isn't this the image?</H1>
+			<DIV id="answerContainer">
+			</DIV>
+		</DIV>
+	</BODY>
+</HTML>

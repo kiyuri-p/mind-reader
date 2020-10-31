@@ -1,0 +1,115 @@
+@font-face {
+	font-family: 'Aclonica';
+	font-style: normal;
+	font-weight: 400;
+	src: url(https://fonts.gstatic.com/s/aclonica/v10/K2FyfZJVlfNNSEBXGY7UAo8.woff2);
+}
+
+*, :before, :after {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+body {
+	padding: 0;
+	margin: 0;
+	font-family: 'Aclonica';
+}
+
+#firstPage {
+	width: 100%;
+	height: 100%;
+	background-image: url(read_your_mind_1.jpg);
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	color: white;
+	text-align: center;
+}
+
+#secondPage {
+	width: 100%;
+	background-image: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8) ), url(read_your_mind_1.jpg);
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	color: white;
+	text-align: center;
+	padding-bottom: 100px;
+}
+
+#thirdPage {
+	width: 100%;
+	height: 100%;
+	background-image: url(read_your_mind_2.jpg);
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	color: white;
+	text-align: center;
+}
+
+.firstText {
+	padding-top: 15%;
+	font-weight: normal !important;
+}
+
+.secondText {
+	padding-top: 20px;
+	font-weight: normal !important;
+}
+
+.thirdText {
+	padding-top: 50px;
+	font-weight: normal !important;
+}
+
+h2 {
+	font-weight: normal !important;
+}
+
+.btn {
+	color: white;
+	font-size: 20px;
+	font-family: 'Aclonica';
+	background-color: transparent;
+	border-color: #472757;
+	border-style: solid;
+	padding-left: 40px;
+	padding-right: 40px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	transition: 0.5s;
+	cursor: pointer;
+}
+
+.btn:hover {
+	transform: scale(1.1);
+	transition: 0.5s;
+	box-shadow: 0 0 5px 5px rgba(141, 143, 226, 0.5);
+}
+
+#container {
+	display: grid;
+	grid-gap: 10px;
+	grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+	grid-template-rows: repeat(2, 100px);  
+}
+
+#answerContainer {
+	margin-top: 45vh;
+}
+
+.ansPic {
+	width: 250px !important;
+}
+
+img {
+	margin-top: 10px;
+	width: 50px;
+}
+
+.pic {
+	padding: 20px;
+}
